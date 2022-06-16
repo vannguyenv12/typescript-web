@@ -1,9 +1,8 @@
-import axios, { AxiosResponse } from 'axios';
-import { Attributes } from './Attributes';
-import { Eventing } from './Eventing';
 import { ApiSync } from './ApiSync';
-import { Model } from './Model';
+import { Attributes } from './Attributes';
 import { Collection } from './Collection';
+import { Eventing } from './Eventing';
+import { Model } from './Model';
 
 export interface UserProps {
   id?: number;

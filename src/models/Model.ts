@@ -1,5 +1,4 @@
-import { Axios, AxiosPromise, AxiosResponse } from 'axios';
-import { Attributes } from './Attributes';
+import { AxiosPromise, AxiosResponse } from 'axios';
 
 interface ModelAttributes<T> {
   set(value: T): void;
